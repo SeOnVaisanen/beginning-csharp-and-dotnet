@@ -7,8 +7,8 @@
             double balance, interestRate, targetBalance;
             Console.WriteLine("What is your current balance?");
             balance = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("what is your current annual interest rate (in %)?");
-            interestRate = 1 + Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("What is your current annual interest rate (in %)?");
+            interestRate = 1 + Convert.ToDouble(Console.ReadLine()) / 100.0;
             Console.WriteLine("What balance would you like to have?");
             targetBalance = Convert.ToDouble(Console.ReadLine());
             int totalYears = 0;
